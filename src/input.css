@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    color: orange;
+}
+.correct {
+    color: green;
+}
+.incorrect {
+    color: red;
+}
+input{
+    /* visibility: hidden; */
+    opacity: 0;
+}
