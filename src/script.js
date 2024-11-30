@@ -76,7 +76,18 @@ const initTimer = ()=> {
        }
 }
 document.querySelector('button').addEventListener('click',()=>{
-  window.location.reload()
+       mistake.innerText = '0'
+       wpm.innerText = '0';
+       cpm.innerText = '0';
+       input.value = ''
+       mistakes = 0;
+       charIndex = 0
+       isTyping  = false;
+       timeLeft = maxTime;
+       loadParagraph();
+       time.innerText = timeLeft
+
+
 })
 
 
