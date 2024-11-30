@@ -86,6 +86,7 @@ document.querySelector('button').addEventListener('click',()=>{
        timeLeft = maxTime;
        loadParagraph();
        time.innerText = timeLeft
+       clearInterval(timer)
 
 
 })
